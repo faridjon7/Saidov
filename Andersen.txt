@@ -1,0 +1,19 @@
+1. 
+n = int(input())
+if n > 7:
+    print('Привет')
+
+2.
+s = input()
+if s == "Вячеслав":
+    print("Привет, Вячеслав")
+
+3.
+n = int(input())
+a = list(map(int, input().split()))
+print(*filter(lambda x: x % 3 == 0, a))
+
+4.
+Нет
+[((())()(())]] -> Нужно поменять второй символ на '['
+[[(())()(())]]
